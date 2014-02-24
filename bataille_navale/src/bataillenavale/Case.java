@@ -1,4 +1,4 @@
-package bataille_navale;
+package bataillenavale;
 
 public class Case{
 	private int coordonnee_x;
