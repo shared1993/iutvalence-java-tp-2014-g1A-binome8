@@ -1,11 +1,14 @@
+/* TODO JavaDoc. */
+/* TODO Package avec un meilleur nom. */
 package bataillenavale;
 
 public class Bateaux {
 	//atributs
 	/*on veux instancier ici le tableau
-	 *qui va contenir toutes les coordonées(cases) des bateaux
-	 *placé par un joueur
+	 *qui va contenir toutes les coordonï¿½es(cases) des bateaux
+	 *placï¿½ par un joueur
 	 */
 	private final Case[] cases_bateaux;
-	
+
+    /* TODO Constructeur ? */
 }
