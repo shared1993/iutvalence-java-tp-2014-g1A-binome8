@@ -3,6 +3,7 @@ package bataillenavale;
 public class Grille {
 	private enum EtatCase {
 		VIDE,
+		OCCUPE,
 		RATE,
 		BATEAU_TOUCHE,
 		BATEAU_INTACT

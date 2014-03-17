@@ -1,15 +1,15 @@
 package bataillenavale;
 
 public class Joueur {
-	private Grille maGrille;
-	private Grille saGrille;
+	private Grille maGrilledeBateauxPlacés;
+	private Grille maGrilledeCoupsJoues;
 	/* TODO A retenir ? */
 	private Bateaux[] mesBateaux;
 	private Case[] coupsJoues;
 	
 	public Joueur() {
-		maGrille = new Grille();
-		saGrille = new Grille();
+		maGrilledeBateauxPlacés = new Grille();
+		maGrilledeCoupsJoues = new Grille();
 		
 	}
 }

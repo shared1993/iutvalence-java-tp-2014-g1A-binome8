@@ -6,6 +6,6 @@ public class Bateaux {
 	 *qui va contenir toutes les coordonées(cases) des bateaux
 	 *placé par un joueur
 	 */
-	private final Case[] cases_bateaux;
+	private final Case[] casesBateaux;
 	
 }
