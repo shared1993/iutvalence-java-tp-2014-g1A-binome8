@@ -3,8 +3,8 @@
 package bataillenavale;
 
 public class Case{
-	private int cX = 9;
-	private int cY = 9;
+	public int cX = 9;
+	public int cY = 9;
 	
 	
 	public void Case (int x, int y) {
