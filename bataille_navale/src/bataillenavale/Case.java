@@ -1,8 +1,10 @@
 package bataillenavale;
 
 public class Case{
-	private int CoordonneeX;
-	public int getCoordonneeX() {
+	private int cX = 9;
+	private int cY = 9;
+	
+	/*public int getCoordonneeX() {
 		return CoordonneeX;
 	}
 	public void setCoordonneeX(int coordonneeX) {
@@ -15,14 +17,11 @@ public class Case{
 	}
 
 	public void setCoordonneeY(int coordonneeY) {
-		CoordonneeY = coordonneeY;
+		CoordonneeY = coordonneeY;*/
 	
-	public Case (int x, int y) {
-		this.CoordonneeX = x;
-		this.CoordonneeY = y;					
-	}
-	
-
+	public void Case (int x, int y) {
+		this.cX = x;
+		this.cY = y;					
 	}
 
 	

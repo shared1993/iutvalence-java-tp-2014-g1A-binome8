@@ -7,7 +7,7 @@ public class BateauxCroiseur extends Bateaux {
  * et appel de la methode (AssignerBateaux) sur la classe Bateaux pour savoir si le bateau tel que défini occupe 
  * bien des cases avec l'EtatCase "VIDE"
  */
-	public BateauxCroiseur(Joueur J, Case CaseOrigine, Direction direction) {
+	public void Bateaux(Joueur J, Case CaseOrigine, Direction direction) {
 		MaGrilledeBateauxPlacés = J.getMaGrilledeBateauxPlacés();
 		if ((CaseOrigine.getCoordonneeX() >= Grille.NBCOL) && (CaseOrigine.getCoordonneeY() <= Grille.NBLIG))
 			if (MaGrilledeBateauxPlacés.getGrille()[CaseOrigine.getCoordonneeX()][CaseOrigine.getCoordonneeY()] == EtatCase.VIDE)

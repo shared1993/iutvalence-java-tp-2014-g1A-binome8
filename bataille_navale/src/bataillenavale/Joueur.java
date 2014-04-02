@@ -2,30 +2,14 @@ package bataillenavale;
 
 public class Joueur {
 	private Grille maGrilledeBateauxPlacés;
-	public Grille getMaGrilledeBateauxPlacés() {
-		return maGrilledeBateauxPlacés;
-	}
-	public void setMaGrilledeBateauxPlacés(Grille maGrilledeBateauxPlacés) {
-		this.maGrilledeBateauxPlacés = maGrilledeBateauxPlacés;
-	}
-
-	private Grille maGrilledeCoupsJoues;
-	
-	private Case[] mesBateaux;
-	public Case[] getMesBateaux() {
-		return mesBateaux;
-	}
-	public void setMesBateaux(Case[] mesBateaux) {
-		this.mesBateaux = mesBateaux;
-	}
-
-	private Case[] coupsJoues;
+	private Grille maGrilledeCoupsJoués;
+	private Bateaux mesBateaux;
 	
 	public Joueur() {
-		maGrilledeBateauxPlacés = new Grille();
-		maGrilledeCoupsJoues = new Grille();
-		mesBateaux = new Bateaux();
-		coupsJoues = new CoupsJoués();
+		this.maGrilledeBateauxPlacés = new Grille();
+		this.maGrilledeCoupsJoués = new Grille();
+		this.mesBateaux = new Bateaux();
+		
 		}
 
 	
