@@ -1,3 +1,5 @@
+/* TODO JavaDoc. */
+/* TODO Package avec un meilleur nom. */
 package bataillenavale;
 
 public abstract class Bateaux {
@@ -27,12 +29,5 @@ public abstract class Bateaux {
 			TabBateaux[i] = new Case(-1,-1);
 		}
 	}
-	
-}
-
-	
-	
-	 
-	
 	
 }
